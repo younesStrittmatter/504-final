@@ -40,7 +40,7 @@ jobs:
           export OMP_NUM_THREADS=1  # Prevents multi-threading issues
           export MKL_NUM_THREADS=1
           export NUMEXPR_NUM_THREADS=1
-          jupyter-book build website --all
+          jupyter-book build book --all
 
       - name: Check if build folder exists
         run: |

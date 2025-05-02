@@ -3,7 +3,13 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+- caption: Introduction to Probability Course for Stats
+  chapters:
+  - file: content/1 Counting
+  - file: content/2 Permutations
+  - file: content/3 Combinations
+  - file: content/4 Sorting
+  - file: content/5 What is Probability
+  - file: content/Games
+

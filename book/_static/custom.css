@@ -6,9 +6,24 @@ img {
 }
 
 .code {
-    background:#222;
-    padding:10px;
-    border-radius:5px;
-    font-family:monospace;
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
     color: #eee;
 }
+
+
+
+.admonition.solution.dropdown > .admonition-title::after {
+    content: "💡"; /* or use FontAwesome content */
+}
+
+.admonition.exercise > .admonition-title::after {
+    content: "❓"; /* or use FontAwesome content */
+}
+
+.rule {
+    background: #999;
+}
+

@@ -4,6 +4,6 @@
 
 The *Tell Game* is a simple game where you try to beat Baysian reasoning:
 
-<a href="https://younesstrittmatter.github.io/teaching/_static/courses/probability/tell-game.html" target="_blank">START
+<a href="https://https://younesstrittmatter.github.io/504-final/_static/courses/probability/tell-game.html" target="_blank">START
 Tell Game</a>
 

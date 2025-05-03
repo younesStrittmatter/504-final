@@ -11,5 +11,7 @@ parts:
   - file: content/3 Combinations
   - file: content/4 Sorting
   - file: content/5 What is Probability
-  - file: content/Games
+  - file: content/6 Conditional Probability
+  - file: content/7 Independence
+  - file: content/Tell Game
 

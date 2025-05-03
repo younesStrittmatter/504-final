@@ -1,6 +1,4 @@
-# Games
-
-## Tell Game
+# Tell Game
 
 The *Tell Game* is a simple game where you try to beat Baysian reasoning:
 

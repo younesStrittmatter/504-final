@@ -13,17 +13,82 @@ img {
     color: #eee;
 }
 
-
-
+/* === Solution Boxes === */
+.admonition.solution.dropdown > .admonition-title {
+    background: #d4edda;
+    color: #155724;
+}
 .admonition.solution.dropdown > .admonition-title::after {
-    content: "💡"; /* or use FontAwesome content */
+    content: "✅";
+    color: #155724;
+    margin-right: 0.5em;
 }
 
+/* === Hint Boxes === */
+.admonition.hint.dropdown > .admonition-title {
+    background: #fff3cd;
+    color: #856404;
+}
+.admonition.hint.dropdown > .admonition-title::after {
+    content: "💡";
+    color: #856404;
+    margin-right: 0.5em;
+}
+
+/* === Exercise Boxes === */
+.admonition.exercise > .admonition-title {
+    background: #cce5ff;
+    color: #004085;
+}
 .admonition.exercise > .admonition-title::after {
-    content: "❓"; /* or use FontAwesome content */
+    content: "❓";
+    color: #004085;
+    margin-right: 0.5em;
 }
 
-.rule {
-    background: #999;
+/* === Rule Boxes === */
+.admonition.rule > .admonition-title {
+    background: #f8d7da;
+    color: #721c24;
 }
+.admonition.rule > .admonition-title::after {
+    content: "📏";
+    color: #721c24;
+    margin-right: 0.5em;
+}
+
+/* === Axioms Boxes === */
+.admonition.axioms > .admonition-title {
+    background: #e2d6f3;
+    color: #4a007e;
+}
+.admonition.axioms > .admonition-title::after {
+    content: "📜";
+    color: #4a007e;
+    margin-right: 0.5em;
+}
+
+/* === Definition Boxes === */
+.admonition.definition > .admonition-title {
+    background: #e6f0ff;
+    color: #003366;
+}
+.admonition.definition > .admonition-title::after {
+    content: "📖";
+    color: #003366;
+    margin-right: 0.5em;
+}
+
+/* === Proof Boxes === */
+.admonition.proof > .admonition-title {
+    background: #fde2f3;
+    color: #b2005d;
+}
+.admonition.proof > .admonition-title::after {
+    content: "🧠";
+    color: #b2005d;
+    margin-right: 0.5em;
+}
+
+
 

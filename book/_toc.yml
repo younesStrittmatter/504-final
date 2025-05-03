@@ -13,5 +13,6 @@ parts:
   - file: content/5 What is Probability
   - file: content/6 Conditional Probability
   - file: content/7 Independence
+  - file: content/Wrap Up
   - file: content/Tell Game
 
